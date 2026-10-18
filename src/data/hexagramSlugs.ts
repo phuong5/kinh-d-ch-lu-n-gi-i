@@ -1,0 +1,478 @@
+export interface HexagramSlugInfo {
+  id: number;
+  slug: string;
+  urlPath: string;
+  dantockingUrl: string;
+  vietnameseTitle: string;
+}
+
+export const HEXAGRAM_SLUGS: Record<number, HexagramSlugInfo> = {
+  1: {
+    id: 1,
+    slug: 'que-1-kien-vi-thien-bat-thuan-can',
+    urlPath: '/p/que-1-kien-vi-thien-bat-thuan-can.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-1-kien-vi-thien-bat-thuan-can.html',
+    vietnameseTitle: 'Quẻ 1: Kiền Vi Thiên (乾 為 天 - Bát Thuần Càn)',
+  },
+  2: {
+    id: 2,
+    slug: 'que-2-khon-vi-dia-bat-thuan-khon',
+    urlPath: '/p/que-2-khon-vi-dia-bat-thuan-khon.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-2-khon-vi-dia-bat-thuan-khon.html',
+    vietnameseTitle: 'Quẻ 2: Khôn Vi Địa (坤 為 地 - Bát Thuần Khôn)',
+  },
+  3: {
+    id: 3,
+    slug: 'que-3-thuy-loi-truan',
+    urlPath: '/p/que-3-thuy-loi-truan.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-3-thuy-loi-truan.html',
+    vietnameseTitle: 'Quẻ 3: Thủy Lôi Truân (水 雷 屯 - Quẻ Truân)',
+  },
+  4: {
+    id: 4,
+    slug: 'que-4-son-thuy-mong',
+    urlPath: '/p/que-4-son-thuy-mong.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-4-son-thuy-mong.html',
+    vietnameseTitle: 'Quẻ 4: Sơn Thủy Mông (山 水 蒙 - Quẻ Mông)',
+  },
+  5: {
+    id: 5,
+    slug: 'que-5-thuy-thien-nhu',
+    urlPath: '/p/que-5-thuy-thien-nhu.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-5-thuy-thien-nhu.html',
+    vietnameseTitle: 'Quẻ 5: Thủy Thiên Nhu (水 天 需 - Quẻ Nhu)',
+  },
+  6: {
+    id: 6,
+    slug: 'que-6-thien-thuy-tung',
+    urlPath: '/p/que-6-thien-thuy-tung.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-6-thien-thuy-tung.html',
+    vietnameseTitle: 'Quẻ 6: Thiên Thủy Tụng (天 水 訟 - Quẻ Tụng)',
+  },
+  7: {
+    id: 7,
+    slug: 'que-7-dia-thuy-su',
+    urlPath: '/p/que-7-dia-thuy-su.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-7-dia-thuy-su.html',
+    vietnameseTitle: 'Quẻ 7: Địa Thủy Sư (地 水 師 - Quẻ Sư)',
+  },
+  8: {
+    id: 8,
+    slug: 'que-8-thuy-dia-ty',
+    urlPath: '/p/que-8-thuy-dia-ty.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-8-thuy-dia-ty.html',
+    vietnameseTitle: 'Quẻ 8: Thủy Địa Tỷ (水 地 比 - Quẻ Tỷ)',
+  },
+  9: {
+    id: 9,
+    slug: 'que-9-phong-thien-tieu-suc',
+    urlPath: '/p/que-9-phong-thien-tieu-suc.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-9-phong-thien-tieu-suc.html',
+    vietnameseTitle: 'Quẻ 9: Phong Thiên Tiểu Súc (風 天 小畜 - Quẻ Tiểu Súc)',
+  },
+  10: {
+    id: 10,
+    slug: 'que-10-thien-trach-ly',
+    urlPath: '/p/que-10-thien-trach-ly.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-10-thien-trach-ly.html',
+    vietnameseTitle: 'Quẻ 10: Thiên Trạch Lý (天 澤 履 - Quẻ Lý)',
+  },
+  11: {
+    id: 11,
+    slug: 'que-11-dia-thien-thai',
+    urlPath: '/p/que-11-dia-thien-thai.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-11-dia-thien-thai.html',
+    vietnameseTitle: 'Quẻ 11: Địa Thiên Thái (地 天 泰 - Quẻ Thái)',
+  },
+  12: {
+    id: 12,
+    slug: 'que-12-thien-dia-bi',
+    urlPath: '/p/que-12-thien-dia-bi.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-12-thien-dia-bi.html',
+    vietnameseTitle: 'Quẻ 12: Thiên Địa Bĩ (天 地 否 - Quẻ Bĩ)',
+  },
+  13: {
+    id: 13,
+    slug: 'que-13-thien-hoa-dong-nhan',
+    urlPath: '/p/que-13-thien-hoa-dong-nhan.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-13-thien-hoa-dong-nhan.html',
+    vietnameseTitle: 'Quẻ 13: Thiên Hỏa Đồng Nhân (天 火 同人 - Quẻ Đồng Nhân)',
+  },
+  14: {
+    id: 14,
+    slug: 'que-14-hoa-thien-dai-huu',
+    urlPath: '/p/que-14-hoa-thien-dai-huu.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-14-hoa-thien-dai-huu.html',
+    vietnameseTitle: 'Quẻ 14: Hỏa Thiên Đại Hữu (火 天 大有 - Quẻ Đại Hữu)',
+  },
+  15: {
+    id: 15,
+    slug: 'que-15-dia-son-khiem',
+    urlPath: '/p/que-15-dia-son-khiem.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-15-dia-son-khiem.html',
+    vietnameseTitle: 'Quẻ 15: Địa Sơn Khiêm (地 山 謙 - Quẻ Khiêm)',
+  },
+  16: {
+    id: 16,
+    slug: 'que-16-loi-dia-du',
+    urlPath: '/p/que-16-loi-dia-du.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-16-loi-dia-du.html',
+    vietnameseTitle: 'Quẻ 16: Lôi Địa Dự (雷 地 豫 - Quẻ Dự)',
+  },
+  17: {
+    id: 17,
+    slug: 'que-17-trach-loi-tuy',
+    urlPath: '/p/que-17-trach-loi-tuy.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-17-trach-loi-tuy.html',
+    vietnameseTitle: 'Quẻ 17: Trạch Lôi Tùy (澤 雷 隨 - Quẻ Tùy)',
+  },
+  18: {
+    id: 18,
+    slug: 'que-18-son-phong-co',
+    urlPath: '/p/que-18-son-phong-co.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-18-son-phong-co.html',
+    vietnameseTitle: 'Quẻ 18: Sơn Phong Cổ (山 風 蠱 - Quẻ Cổ)',
+  },
+  19: {
+    id: 19,
+    slug: 'que-19-dia-trach-lam',
+    urlPath: '/p/que-19-dia-trach-lam.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-19-dia-trach-lam.html',
+    vietnameseTitle: 'Quẻ 19: Địa Trạch Lâm (地 澤 臨 - Quẻ Lâm)',
+  },
+  20: {
+    id: 20,
+    slug: 'que-20-phong-dia-quan',
+    urlPath: '/p/que-20-phong-dia-quan.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-20-phong-dia-quan.html',
+    vietnameseTitle: 'Quẻ 20: Phong Địa Quán (風 地 觀 - Quẻ Quán)',
+  },
+  21: {
+    id: 21,
+    slug: 'que-21-hoa-loi-phe-hap',
+    urlPath: '/p/que-21-hoa-loi-phe-hap.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-21-hoa-loi-phe-hap.html',
+    vietnameseTitle: 'Quẻ 21: Hỏa Lôi Phệ Hạp (火 雷 噬嗑 - Quẻ Phệ Hạp)',
+  },
+  22: {
+    id: 22,
+    slug: 'que-22-son-hoa-bi',
+    urlPath: '/p/que-22-son-hoa-bi.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-22-son-hoa-bi.html',
+    vietnameseTitle: 'Quẻ 22: Sơn Hỏa Bí (山 火 賁 - Quẻ Bí)',
+  },
+  23: {
+    id: 23,
+    slug: 'que-23-son-dia-bac',
+    urlPath: '/p/que-23-son-dia-bac.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-23-son-dia-bac.html',
+    vietnameseTitle: 'Quẻ 23: Sơn Địa Bác (山 地 剝 - Quẻ Bác)',
+  },
+  24: {
+    id: 24,
+    slug: 'que-24-dia-loi-phuc',
+    urlPath: '/p/que-24-dia-loi-phuc.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-24-dia-loi-phuc.html',
+    vietnameseTitle: 'Quẻ 24: Địa Lôi Phục (地 雷 復 - Quẻ Phục)',
+  },
+  25: {
+    id: 25,
+    slug: 'que-25-thien-loi-vo-vong',
+    urlPath: '/p/que-25-thien-loi-vo-vong.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-25-thien-loi-vo-vong.html',
+    vietnameseTitle: 'Quẻ 25: Thiên Lôi Vô Vọng (天 雷 無妄 - Quẻ Vô Vọng)',
+  },
+  26: {
+    id: 26,
+    slug: 'que-26-son-thien-dai-suc',
+    urlPath: '/p/que-26-son-thien-dai-suc.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-26-son-thien-dai-suc.html',
+    vietnameseTitle: 'Quẻ 26: Sơn Thiên Đại Súc (山 天 大畜 - Quẻ Đại Súc)',
+  },
+  27: {
+    id: 27,
+    slug: 'que-27-son-loi-di',
+    urlPath: '/p/que-27-son-loi-di.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-27-son-loi-di.html',
+    vietnameseTitle: 'Quẻ 27: Sơn Lôi Di (山 雷 頤 - Quẻ Di)',
+  },
+  28: {
+    id: 28,
+    slug: 'que-28-trach-phong-dai-qua',
+    urlPath: '/p/que-28-trach-phong-dai-qua.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-28-trach-phong-dai-qua.html',
+    vietnameseTitle: 'Quẻ 28: Trạch Phong Đại Quá (澤 風 大過 - Quẻ Đại Quá)',
+  },
+  29: {
+    id: 29,
+    slug: 'que-29-kham-vi-thuy-bat-thuan-kham',
+    urlPath: '/p/que-29-kham-vi-thuy-bat-thuan-kham.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-29-kham-vi-thuy-bat-thuan-kham.html',
+    vietnameseTitle: 'Quẻ 29: Khảm Vi Thủy (坎 為 水 - Bát Thuần Khảm)',
+  },
+  30: {
+    id: 30,
+    slug: 'que-30-ly-vi-hoa-bat-thuan-ly',
+    urlPath: '/p/que-30-ly-vi-hoa-bat-thuan-ly.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-30-ly-vi-hoa-bat-thuan-ly.html',
+    vietnameseTitle: 'Quẻ 30: Ly Vi Hỏa (離 為 火 - Bát Thuần Ly)',
+  },
+  31: {
+    id: 31,
+    slug: 'que-31-trach-son-ham',
+    urlPath: '/p/que-31-trach-son-ham.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-31-trach-son-ham.html',
+    vietnameseTitle: 'Quẻ 31: Trạch Sơn Hàm (澤 山 咸 - Quẻ Hàm)',
+  },
+  32: {
+    id: 32,
+    slug: 'que-32-loi-phong-hang',
+    urlPath: '/p/que-32-loi-phong-hang.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-32-loi-phong-hang.html',
+    vietnameseTitle: 'Quẻ 32: Lôi Phong Hằng (雷 風 恆 - Quẻ Hằng)',
+  },
+  33: {
+    id: 33,
+    slug: 'que-33-thien-son-don',
+    urlPath: '/p/que-33-thien-son-don.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-33-thien-son-don.html',
+    vietnameseTitle: 'Quẻ 33: Thiên Sơn Độn (天 山 遯 - Quẻ Độn)',
+  },
+  34: {
+    id: 34,
+    slug: 'que-34-loi-thien-dai-trang',
+    urlPath: '/p/que-34-loi-thien-dai-trang.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-34-loi-thien-dai-trang.html',
+    vietnameseTitle: 'Quẻ 34: Lôi Thiên Đại Tráng (雷 天 大壯 - Quẻ Đại Tráng)',
+  },
+  35: {
+    id: 35,
+    slug: 'que-35-hoa-dia-tan',
+    urlPath: '/p/que-35-hoa-dia-tan.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-35-hoa-dia-tan.html',
+    vietnameseTitle: 'Quẻ 35: Hỏa Địa Tấn (火 地 晉 - Quẻ Tấn)',
+  },
+  36: {
+    id: 36,
+    slug: 'que-36-dia-hoa-minh-di',
+    urlPath: '/p/que-36-dia-hoa-minh-di.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-36-dia-hoa-minh-di.html',
+    vietnameseTitle: 'Quẻ 36: Địa Hỏa Minh Di (地 火 明夷 - Quẻ Minh Di)',
+  },
+  37: {
+    id: 37,
+    slug: 'que-37-phong-hoa-gia-nhan',
+    urlPath: '/p/que-37-phong-hoa-gia-nhan.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-37-phong-hoa-gia-nhan.html',
+    vietnameseTitle: 'Quẻ 37: Phong Hỏa Gia Nhân (風 火 家人 - Quẻ Gia Nhân)',
+  },
+  38: {
+    id: 38,
+    slug: 'que-38-hoa-trach-khue',
+    urlPath: '/p/que-38-hoa-trach-khue.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-38-hoa-trach-khue.html',
+    vietnameseTitle: 'Quẻ 38: Hỏa Trạch Khuê (火 澤 睽 - Quẻ Khuê)',
+  },
+  39: {
+    id: 39,
+    slug: 'que-39-thuy-son-kien',
+    urlPath: '/p/que-39-thuy-son-kien.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-39-thuy-son-kien.html',
+    vietnameseTitle: 'Quẻ 39: Thủy Sơn Kiển (水 山 蹇 - Quẻ Kiển)',
+  },
+  40: {
+    id: 40,
+    slug: 'que-40-loi-thuy-giai',
+    urlPath: '/p/que-40-loi-thuy-giai.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-40-loi-thuy-giai.html',
+    vietnameseTitle: 'Quẻ 40: Lôi Thủy Giải (雷 水 解 - Quẻ Giải)',
+  },
+  41: {
+    id: 41,
+    slug: 'que-41-son-trach-ton',
+    urlPath: '/p/que-41-son-trach-ton.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-41-son-trach-ton.html',
+    vietnameseTitle: 'Quẻ 41: Sơn Trạch Tổn (山 澤 損 - Quẻ Tổn)',
+  },
+  42: {
+    id: 42,
+    slug: 'que-42-phong-loi-ich',
+    urlPath: '/p/que-42-phong-loi-ich.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-42-phong-loi-ich.html',
+    vietnameseTitle: 'Quẻ 42: Phong Lôi Ích (風 雷 益 - Quẻ Ích)',
+  },
+  43: {
+    id: 43,
+    slug: 'que-43-trach-thien-quai',
+    urlPath: '/p/que-43-trach-thien-quai.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-43-trach-thien-quai.html',
+    vietnameseTitle: 'Quẻ 43: Trạch Thiên Quải (澤 天 夬 - Quẻ Quải)',
+  },
+  44: {
+    id: 44,
+    slug: 'que-44-thien-phong-cau',
+    urlPath: '/p/que-44-thien-phong-cau.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-44-thien-phong-cau.html',
+    vietnameseTitle: 'Quẻ 44: Thiên Phong Cấu (天 風 姤 - Quẻ Cấu)',
+  },
+  45: {
+    id: 45,
+    slug: 'que-45-trach-dia-tuy',
+    urlPath: '/p/que-45-trach-dia-tuy.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-45-trach-dia-tuy.html',
+    vietnameseTitle: 'Quẻ 45: Trạch Địa Tụy (澤 地 萃 - Quẻ Tụy)',
+  },
+  46: {
+    id: 46,
+    slug: 'que-46-dia-phong-thang',
+    urlPath: '/p/que-46-dia-phong-thang.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-46-dia-phong-thang.html',
+    vietnameseTitle: 'Quẻ 46: Địa Phong Thăng (地 風 升 - Quẻ Thăng)',
+  },
+  47: {
+    id: 47,
+    slug: 'que-47-trach-thuy-khon',
+    urlPath: '/p/que-47-trach-thuy-khon.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-47-trach-thuy-khon.html',
+    vietnameseTitle: 'Quẻ 47: Trạch Thủy Khốn (澤 水 困 - Quẻ Khốn)',
+  },
+  48: {
+    id: 48,
+    slug: 'que-48-thuy-phong-tinh',
+    urlPath: '/p/que-48-thuy-phong-tinh.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-48-thuy-phong-tinh.html',
+    vietnameseTitle: 'Quẻ 48: Thủy Phong Tỉnh (水 風 井 - Quẻ Tỉnh)',
+  },
+  49: {
+    id: 49,
+    slug: 'que-49-trach-hoa-cach',
+    urlPath: '/p/que-49-trach-hoa-cach.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-49-trach-hoa-cach.html',
+    vietnameseTitle: 'Quẻ 49: Trạch Hỏa Cách (澤 火 革 - Quẻ Cách)',
+  },
+  50: {
+    id: 50,
+    slug: 'que-50-hoa-phong-dinh',
+    urlPath: '/p/que-50-hoa-phong-dinh.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-50-hoa-phong-dinh.html',
+    vietnameseTitle: 'Quẻ 50: Hỏa Phong Đỉnh (火 風 鼎 - Quẻ Đỉnh)',
+  },
+  51: {
+    id: 51,
+    slug: 'que-51-chan-vi-loi-bat-thuan-chan',
+    urlPath: '/p/que-51-chan-vi-loi-bat-thuan-chan.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-51-chan-vi-loi-bat-thuan-chan.html',
+    vietnameseTitle: 'Quẻ 51: Chấn Vi Lôi (震 為 雷 - Bát Thuần Chấn)',
+  },
+  52: {
+    id: 52,
+    slug: 'que-52-can-vi-son-bat-thuan-can',
+    urlPath: '/p/que-52-can-vi-son-bat-thuan-can.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-52-can-vi-son-bat-thuan-can.html',
+    vietnameseTitle: 'Quẻ 52: Cấn Vi Sơn (艮 為 山 - Bát Thuần Cấn)',
+  },
+  53: {
+    id: 53,
+    slug: 'que-53-phong-son-tiem',
+    urlPath: '/p/que-53-phong-son-tiem.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-53-phong-son-tiem.html',
+    vietnameseTitle: 'Quẻ 53: Phong Sơn Tiệm (風 山 漸 - Quẻ Tiệm)',
+  },
+  54: {
+    id: 54,
+    slug: 'que-54-loi-trach-quy-muoi',
+    urlPath: '/p/que-54-loi-trach-quy-muoi.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-54-loi-trach-quy-muoi.html',
+    vietnameseTitle: 'Quẻ 54: Lôi Trạch Quy Muội (雷 澤 歸妹 - Quẻ Quy Muội)',
+  },
+  55: {
+    id: 55,
+    slug: 'que-55-loi-hoa-phong',
+    urlPath: '/p/que-55-loi-hoa-phong.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-55-loi-hoa-phong.html',
+    vietnameseTitle: 'Quẻ 55: Lôi Hỏa Phong (雷 火 豐 - Quẻ Phong)',
+  },
+  56: {
+    id: 56,
+    slug: 'que-56-hoa-son-lu',
+    urlPath: '/p/que-56-hoa-son-lu.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-56-hoa-son-lu.html',
+    vietnameseTitle: 'Quẻ 56: Hỏa Sơn Lữ (火 山 旅 - Quẻ Lữ)',
+  },
+  57: {
+    id: 57,
+    slug: 'que-57-ton-vi-phong-bat-thuan-ton',
+    urlPath: '/p/que-57-ton-vi-phong-bat-thuan-ton.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-57-ton-vi-phong-bat-thuan-ton.html',
+    vietnameseTitle: 'Quẻ 57: Tốn Vi Phong (巽 為 風 - Bát Thuần Tốn)',
+  },
+  58: {
+    id: 58,
+    slug: 'que-58-doai-vi-trach-bat-thuan-doai',
+    urlPath: '/p/que-58-doai-vi-trach-bat-thuan-doai.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-58-doai-vi-trach-bat-thuan-doai.html',
+    vietnameseTitle: 'Quẻ 58: Đoài Vi Trạch (兌 為 澤 - Bát Thuần Đoài)',
+  },
+  59: {
+    id: 59,
+    slug: 'que-59-phong-thuy-hoan',
+    urlPath: '/p/que-59-phong-thuy-hoan.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-59-phong-thuy-hoan.html',
+    vietnameseTitle: 'Quẻ 59: Phong Thủy Hoán (風 水 渙 - Quẻ Hoán)',
+  },
+  60: {
+    id: 60,
+    slug: 'que-60-thuy-trach-tiet',
+    urlPath: '/p/que-60-thuy-trach-tiet.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-60-thuy-trach-tiet.html',
+    vietnameseTitle: 'Quẻ 60: Thủy Trạch Tiết (水 澤 節 - Quẻ Tiết)',
+  },
+  61: {
+    id: 61,
+    slug: 'que-61-phong-trach-trung-phu',
+    urlPath: '/p/que-61-phong-trach-trung-phu.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-61-phong-trach-trung-phu.html',
+    vietnameseTitle: 'Quẻ 61: Phong Trạch Trung Phu (風 澤 中孚 - Quẻ Trung Phu)',
+  },
+  62: {
+    id: 62,
+    slug: 'que-62-loi-son-tieu-qua',
+    urlPath: '/p/que-62-loi-son-tieu-qua.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-62-loi-son-tieu-qua.html',
+    vietnameseTitle: 'Quẻ 62: Lôi Sơn Tiểu Quá (雷 山 小過 - Quẻ Tiểu Quá)',
+  },
+  63: {
+    id: 63,
+    slug: 'que-63-thuy-hoa-ky-te',
+    urlPath: '/p/que-63-thuy-hoa-ky-te.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-63-thuy-hoa-ky-te.html',
+    vietnameseTitle: 'Quẻ 63: Thủy Hỏa Ký Tế (水 火 既濟 - Quẻ Ký Tế)',
+  },
+  64: {
+    id: 64,
+    slug: 'que-64-hoa-thuy-vi-te',
+    urlPath: '/p/que-64-hoa-thuy-vi-te.html',
+    dantockingUrl: 'https://www.dantocking.com/p/que-64-hoa-thuy-vi-te.html',
+    vietnameseTitle: 'Quẻ 64: Hỏa Thủy Vị Tế (火 水 未濟 - Quẻ Vị Tế)',
+  },
+};
+
+export function getSlugInfoById(id: number): HexagramSlugInfo {
+  return HEXAGRAM_SLUGS[id] || HEXAGRAM_SLUGS[1];
+}
+
+export function getIdBySlug(slugOrPath: string): number | null {
+  const clean = slugOrPath.replace('/p/', '').replace('.html', '').replace('#', '').trim();
+  for (const item of Object.values(HEXAGRAM_SLUGS)) {
+    if (item.slug === clean || item.urlPath === slugOrPath || clean.startsWith(`que-${item.id}-`)) {
+      return item.id;
+    }
+  }
+  // Also match #que-1 or que-1
+  const numMatch = clean.match(/^que-(\d+)/);
+  if (numMatch) {
+    const parsed = parseInt(numMatch[1], 10);
+    if (parsed >= 1 && parsed <= 64) return parsed;
+  }
+  return null;
+}

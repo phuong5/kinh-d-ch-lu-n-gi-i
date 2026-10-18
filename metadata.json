@@ -1,0 +1,6 @@
+{
+  "name": "64 Quẻ Kinh Dịch - Luận Giải Chi Tiết",
+  "description": "Tra cứu và luận giải chi tiết 64 quẻ Kinh Dịch theo Dịch lý, tượng quẻ, điềm quẻ, 6 hào từ và ứng dụng công danh, tài lộc, tình duyên, gia đạo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
